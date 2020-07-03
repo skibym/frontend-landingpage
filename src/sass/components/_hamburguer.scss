@@ -1,0 +1,7 @@
+.hamburguer{
+  display: flex;
+
+  @media #{$medium-devices} {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.banner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column-reverse;
+
+  @media #{$medium-devices} {
+   flex-direction: row;
+  }
+}

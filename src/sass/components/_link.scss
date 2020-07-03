@@ -1,0 +1,67 @@
+.link{
+  cursor: pointer;
+  font-family: $font-pattern;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: $text-weight--medium;
+  line-height: 30px;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.link--primary{
+  color: $text--primary;
+  min-width: 100px;
+
+  svg{
+    fill: $text--primary;
+  }
+}
+
+.link--secondary{
+  color: $color--primary;
+
+  svg{
+    fill: $color--primary;
+  }
+}
+
+.link--tertiary{
+  color: $color--tertiary;
+
+  svg{
+    fill: $color--tertiary;
+  }
+}
+
+.link--inverted{
+  color: $text--inverted;
+
+  svg{
+    fill: $text--inverted;
+  }
+}
+
+.link--extra-small{
+  font-size: $text--extra-small;
+}
+
+.link--small{
+  font-size: $text--small;
+}
+
+.link--medium{
+  font-size: $text--medium;
+}
+
+.link--large{
+  font-size: $text--large;
+}
+
+.link--extra-large{
+  font-size: $text--extra-large;
+}
+

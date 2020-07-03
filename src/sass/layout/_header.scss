@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: $color--primary;
+}
+
+.header__box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: $space--medium $space--large;
+}
+

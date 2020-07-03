@@ -1,0 +1,33 @@
+.navbar{
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  z-index: 200;
+  width: 100%;
+  background-color: $color--primary-700;
+
+  &.is-active{
+    display: flex;
+  }
+
+  @media #{$medium-devices} {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 5;
+    position: unset;
+    background-color: unset;
+    width: unset;
+  }
+}
+
+.navbar__item{
+  display: flex;
+  align-items: center;
+  padding: $space--large;
+}
